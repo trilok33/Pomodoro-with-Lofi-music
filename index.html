@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icon.jpg">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pomodoro-Time</title>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Orbitron&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- ICONS -->
+  <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <h1>Pomodoro</h1>
+      <div class="painel">
+        <p id="work">Work</p>
+        <p id="break0">Break</p>
+      </div>
+
+      <div class="timer">
+        <div class="circle">
+          <div class="time">
+            <p id="minutes"></p>
+            <p>:</p>
+            <p id="seconds"></p>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+
+        <a id="reset" href="./"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+      </div>
+    </div>
+    <footer>
+      Made with ❤️ By Trilok Trivikram.B
+    </footer>
+    <!--Music Player-->
+    <section2></section2>
+    <div class="container2">
+      <h0>Music Player</h0>
+      <div class="lufi">
+        <p id="work">Lofi</p>
+      </div>
+      <div class="music-container">
+        <div id="cover-box">
+          <img src="images/cover1.jpg" alt="cover-image" id="cover" />
+        </div>
+
+
+        <div id="music-box">
+          <audio id="disc"></audio>
+          <div id="music-info">
+            <h2 id="title"></h2>
+            <h3 id="artist"></h3>
+            <div id="progress-container">
+              <div id="progress"></div>
+            </div>
+
+
+            <div id="timer-bar">
+              <span id="timer">0:00</span>
+              <span id="duration"></span>
+            </div>
+          </div>
+          <div id="control-box">
+            <i id="prev" class="btn fas fa-backward"></i>
+            <i id="play" class="special-btn fas fa-play"></i>
+            <i id="next" class="btn fas fa-forward"></i>
+          </div>
+
+        </div>
+      </div>
+
+      </section2>
+  </section>
+  <!-- SCRIPT -->
+  <SCRIPT src="/index.js"></SCRIPT>
+  
+
+
+</body>
+
+</html>

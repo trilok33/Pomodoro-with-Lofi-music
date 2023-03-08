@@ -354,7 +354,7 @@ h0 {
     height: 0.0px, 0.0px;
   }
   @media(max-width:376px) {
-    section {
+    .mainsection {
        
       
         display: flex;

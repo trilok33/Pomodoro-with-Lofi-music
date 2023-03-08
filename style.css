@@ -172,16 +172,7 @@ h0 {
   
 }
 
-.container2 {
-    width: 30rem;
-    width: min(42.5rem, 100%);
-    margin-inline: auto;
-    padding-inline: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+
 
 .body2 {
   
@@ -354,7 +345,7 @@ h0 {
     height: 0.0px, 0.0px;
   }
   @media(max-width:376px) {
-    .container {
+    .mainSection {
        
       
         display: flex;

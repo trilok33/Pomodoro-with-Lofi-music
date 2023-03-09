@@ -344,14 +344,4 @@ h0 {
     top: auto;
     height: 0.0px, 0.0px;
   }
-  @media(max-width:376px) {
-    .mainSection {
-       
-      
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-}
+ 
